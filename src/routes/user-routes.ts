@@ -21,8 +21,6 @@ import { verifyToken } from "../utils/token-manager.js";
 userRoutes.get("/", (req, res, next) => void getAllUsers(req, res, next));
 userRoutes.post("/signup", validate(signUpValidator), (req, res, next) => void userSignUp(req, res, next));
 userRoutes.post("/login", validate(loginValidator), (req, res, next) => void userLogin(req, res, next));
-//userRoutes.get("/auth-status", verifyToken, (req, res, next) => void verifyUserStatus(req, res, next));
-//userRoutes.get("/logout", verifyToken, (req, res, next) => void logoutUser(req, res, next));
 userRoutes.get("/auth-status", (req, res, next) => {
   verifyToken(req, res, (err) => {
     if (err) return next(err);

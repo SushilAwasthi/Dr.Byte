@@ -1,5 +1,8 @@
+// import { Request, Response, NextFunction } from "express";
+// import User from "../models/user-model.js";
+// import axios from "axios";
+import axios from "axios";
 import User from "../models/user-model.js";
-import { configureOpenAI } from "../configs/open-ai-config.js";
 export const generateChatCompletion = async (req, res, next) => {
     try {
         const { message } = req.body;
@@ -8,23 +11,19 @@ export const generateChatCompletion = async (req, res, next) => {
             res.status(401).json({ message: "User not registered or token invalid" });
             return;
         }
+        // Push user message to chats
         const chats = user.chats?.map((chat) => ({
             role: chat.role,
             content: chat.content,
         })) || [];
         chats.push({ role: "user", content: message });
         user.chats.push({ role: "user", content: message });
-        const openai = configureOpenAI();
-        const chatResponse = await openai.chat.completions.create({
-            model: "gpt-3.5-turbo",
-            messages: [
-                { role: "system", content: "You are a helpful medical assistant." },
-                ...chats,
-            ],
+        const response = await axios.post("http://localhost:5005/predict", {
+            message: message,
         });
-        const aiReply = chatResponse.choices[0]?.message;
+        const aiReply = response.data.reply;
         if (aiReply) {
-            user.chats.push(aiReply);
+            user.chats.push({ role: "assistant", content: aiReply });
         }
         await user.save();
         res.status(200).json({ chats: user.chats });
@@ -34,7 +33,7 @@ export const generateChatCompletion = async (req, res, next) => {
         res.status(500).json({ message: "Failed to generate chat", cause: error.message });
     }
 };
-//get
+// GET all chats
 export const getAllChats = async (req, res, next) => {
     try {
         const user = await User.findById(res.locals.jwtData.id);
@@ -53,7 +52,7 @@ export const getAllChats = async (req, res, next) => {
         res.status(500).json({ message: "Failed to get chats", cause: err.message });
     }
 };
-// DELETE 
+// DELETE all chats
 export const deleteAllChats = async (req, res, next) => {
     try {
         const user = await User.findById(res.locals.jwtData.id);
@@ -65,7 +64,6 @@ export const deleteAllChats = async (req, res, next) => {
             res.status(403).json({ message: "Permission denied" });
             return;
         }
-        //user.chats = [];
         user.chats.splice(0);
         await user.save();
         res.status(200).json({ message: "Chats deleted", chats: user.chats });

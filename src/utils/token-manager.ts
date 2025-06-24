@@ -3,47 +3,37 @@ import jwt from "jsonwebtoken";
 import { COOKIE_NAME } from "./constants.js";
 
 export const createToken = (id: string, email: string, expiresIn: string) => {
-	const payload = { id, email };
+  const payload = { id, email };
 
-	const token = jwt.sign(payload, process.env.JWT_SECRET!, {
-		expiresIn:"1h" ,
-	});
-	return token;
+  const token = jwt.sign(payload, process.env.JWT_SECRET!, {
+    expiresIn: "1h",
+  });
+  return token;
 };
 
 export const verifyToken = async (
-	req: Request,
-	res: Response,
-	next: NextFunction
-):Promise<void> => {
-	const token = req.signedCookies[`${COOKIE_NAME}`]; // signed cookies is an object which can contain all of the cookies data
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  const token = req.signedCookies[`${COOKIE_NAME}`];
 
-	if (!token || token.trim() === "") {
-		res.status(401).json({ message: "Token Not Received" });
-		return 
-	}
-	return new Promise<void>((resolve, reject) => {
-		return jwt.verify(
-			token,
-			process.env.JWT_SECRET! ,
-			(err: any, success: any) => {
-				if (err) {
-					reject(err.message);
-					return res.status(401).json({ message: "Token Expired" });
-				} else {
-					// we will set some local paramaeters for this request in this function
-					// and then we can use those parameters inside next function
-					// send local variables to next request
+  if (!token || token.trim() === "") {
+    res.status(401).json({ message: "Token not received" });
+    return;
+  }
 
-                    console.log('Token verification successfull')
-
-					resolve();
-					res.locals.jwtData = success;
-					return next();
-				}
-			}
-		);
-	});
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET!);
+    console.log("Token verification successful");
+    res.locals.jwtData = decoded;
+    next();
+  } catch (err: any) {
+    console.error("JWT error:", err.message);
+    if (err.name === "TokenExpiredError") {
+      res.status(401).json({ message: "Token expired" });
+    } else {
+      res.status(403).json({ message: "Token invalid" });
+    }
+  }
 };
-
-

@@ -1,3 +1,6 @@
+// import { Request, Response, NextFunction } from "express";
+// import jwt from "jsonwebtoken";
+// import { COOKIE_NAME } from "./constants.js";
 import jwt from "jsonwebtoken";
 import { COOKIE_NAME } from "./constants.js";
 export const createToken = (id, email, expiresIn) => {
@@ -8,27 +11,25 @@ export const createToken = (id, email, expiresIn) => {
     return token;
 };
 export const verifyToken = async (req, res, next) => {
-    const token = req.signedCookies[`${COOKIE_NAME}`]; // signed cookies is an object which can contain all of the cookies data
+    const token = req.signedCookies[`${COOKIE_NAME}`];
     if (!token || token.trim() === "") {
-        res.status(401).json({ message: "Token Not Received" });
+        res.status(401).json({ message: "Token not received" });
         return;
     }
-    return new Promise((resolve, reject) => {
-        return jwt.verify(token, process.env.JWT_SECRET, (err, success) => {
-            if (err) {
-                reject(err.message);
-                return res.status(401).json({ message: "Token Expired" });
-            }
-            else {
-                // we will set some local paramaeters for this request in this function
-                // and then we can use those parameters inside next function
-                // send local variables to next request
-                console.log('Token verification successfull');
-                resolve();
-                res.locals.jwtData = success;
-                return next();
-            }
-        });
-    });
+    try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        console.log("Token verification successful");
+        res.locals.jwtData = decoded;
+        next();
+    }
+    catch (err) {
+        console.error("JWT error:", err.message);
+        if (err.name === "TokenExpiredError") {
+            res.status(401).json({ message: "Token expired" });
+        }
+        else {
+            res.status(403).json({ message: "Token invalid" });
+        }
+    }
 };
 //# sourceMappingURL=token-manager.js.map
