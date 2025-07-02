@@ -14,6 +14,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    role: {
+        type: Number,
+        enum: [0, 1], // 0 = user, 1 = admin
+        default: 0,
+    },
     chats: [chatSchema],
 });
 export default mongoose.model("User", userSchema);
