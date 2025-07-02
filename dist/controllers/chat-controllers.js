@@ -1,6 +1,3 @@
-// import { Request, Response, NextFunction } from "express";
-// import User from "../models/user-model.js";
-// import axios from "axios";
 import axios from "axios";
 import User from "../models/user-model.js";
 export const generateChatCompletion = async (req, res, next) => {

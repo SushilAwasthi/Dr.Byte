@@ -1,9 +1,6 @@
-// import { Request, Response, NextFunction } from "express";
-// import jwt from "jsonwebtoken";
-// import { COOKIE_NAME } from "./constants.js";
 import jwt from "jsonwebtoken";
 import { COOKIE_NAME } from "./constants.js";
-export const createToken = (id, email, expiresIn) => {
+export const createToken = (id, email, role, expiresIn) => {
     const payload = { id, email };
     const token = jwt.sign(payload, process.env.JWT_SECRET, {
         expiresIn: "1h",
