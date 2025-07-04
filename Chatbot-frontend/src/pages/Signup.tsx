@@ -12,7 +12,7 @@ axios.defaults.baseURL = "http://localhost:5001/api";
 axios.defaults.withCredentials = true;
 
 const Signup = () => {
-	const [buttonName, setButtonName] = useState("Login");
+	const [buttonName, setButtonName] = useState("Signup");
 	const navigate = useNavigate();
 	const auth = useAuth();
 
@@ -27,12 +27,12 @@ const Signup = () => {
 			setButtonName("Loading ...");
 			toast.loading("Signing up ..", { id: "signup" });
 			await auth?.signup(username, email, password);
-			setButtonName("SignUp");
+			setButtonName("signup");
 			toast.dismiss("signup");
-			toast.success("Account created and Logged In", { id: "signup" });
+			toast.success("Account created", { id: "signup" });
 			navigate('/login');
 		} catch (error: any) {
-			setButtonName("SignUp");
+			setButtonName("signup");
 			toast.dismiss("signup");
 			toast.error(error.response?.data?.message || error.message, { id: "signup" });
 			console.log(error, "error");
@@ -140,7 +140,7 @@ const Signup = () => {
 							to="/login" 
 							className="text-[#00ffff] font-semibold hover:text-white transition-colors duration-300"
 						>
-							{buttonName}
+							Login
 						</Link>
 					</p>
 				</motion.div>
