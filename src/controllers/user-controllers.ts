@@ -51,7 +51,7 @@ export const userSignUp = async (req: Request, res: Response, next: NextFunction
 		const user = new User({ name, email, password: hashedPassword });
 		await user.save();
 
-		const token = createToken(user._id.toString(), user.email, "7d");
+		const token = createToken(user._id.toString(), user.email,user.role ,"7d");
 		const cookieOptions = getCookieOptions();
 
 		res.clearCookie(COOKIE_NAME, cookieOptions);
@@ -59,8 +59,14 @@ export const userSignUp = async (req: Request, res: Response, next: NextFunction
 
 		return res.status(201).json({
 			message: "OK",
-			name: user.name,
-			email: user.email,
+			// name: user.name,
+			// email: user.email,
+			 user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
 		});
 	} catch (error: any) {
 		console.log(error);
@@ -88,7 +94,7 @@ export const userLogin = async (req: Request, res: Response, next: NextFunction)
 			});
 		}
 
-		const token = createToken(user._id.toString(), user.email, "7d");
+		const token = createToken(user._id.toString(), user.email,user.role ,"7d");
 		const cookieOptions = getCookieOptions();
 
 		res.clearCookie(COOKIE_NAME, cookieOptions);
@@ -96,8 +102,14 @@ export const userLogin = async (req: Request, res: Response, next: NextFunction)
 
 		return res.status(200).json({
 			message: "OK",
-			name: user.name,
-			email: user.email,
+			// name: user.name,
+			// email: user.email,
+			 user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
 		});
 	} catch (error: any) {
 		console.log(error);
@@ -124,8 +136,14 @@ export const verifyUserStatus = async (req: Request, res: Response, next: NextFu
 
 		return res.status(200).json({
 			message: "OK",
-			name: user.name,
-			email: user.email,
+			// name: user.name,
+			// email: user.email,
+			 user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
 		});
 	} catch (error: any) {
 		console.log(error);
@@ -155,8 +173,14 @@ export const logoutUser = async (req: Request, res: Response, next: NextFunction
 
 		return res.status(200).json({
 			message: "OK",
-			name: user.name,
-			email: user.email,
+			// name: user.name,
+			// email: user.email,
+			   user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
 		});
 	} catch (error: any) {
 		console.log(error);

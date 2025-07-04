@@ -1,17 +1,49 @@
 import axios from "axios";
 
+// export const userLogin = async (email: string, password: string) => {
+// 	try {
+// 		// const response = await axios.post("/user/login", { email, password });
+// 		// if (response.status !== 200) {
+// 		// 	throw new Error();
+// 		// }
+// 		// const data = await response.data;
+// 		// return data;
+// 		const response = await axios.post("/user/login", { email, password });
+// return response.data.user;
+// 	} catch (err: any) {
+// 		throw new Error(Error! Cannot Login. ${err.message});
+// 	}
+// };
+
+// export const userLogin = async (email: string, password: string) => {
+// 	try {
+// 		const response = await axios.post("/user/login", { email, password });
+// 		return response.data.user;
+// 	} catch (err: any) {
+// 		const backendMessage =
+// 			err.response?.data?.cause || "Login failed. Please try again.";
+// 		throw new Error(backendMessage);
+// 	}
+// };
+
 export const userLogin = async (email: string, password: string) => {
 	try {
 		const response = await axios.post("/user/login", { email, password });
-		if (response.status !== 200) {
-			throw new Error();
-		}
-		const data = await response.data;
-		return data;
+		return response.data.user;
 	} catch (err: any) {
-		throw new Error(`Error! Cannot Login. ${err.message}`);
+		// Get backend-provided error
+		const cause =
+			err?.response?.data?.cause ||
+			(err.response?.status === 403
+				? "Incorrect Password"
+				: err.response?.status === 404
+				? "Email ID not found"
+				: "Login failed. Please try again.");
+		throw new Error(cause);
 	}
 };
+
+
 
 export const userSignup = async (
 	name: string,
@@ -63,13 +95,21 @@ export const postChatRequest = async (message: string) => {
 	// }
 
 	try {
-		const result = await axios.post("http://127.0.0.1:5000/predict", { message });
+		const result = await axios.post("http://127.0.0.1:5005/predict", { message });
+		
 		console.log(result.data.response);
 		if (result.status !== 200) {
 			throw new Error();
 		}
 		const predict = await result.data.response;
-		const response = await axios.post("/chat/new", { message, predict });
+		// const response = await axios.post("http://localhost:5001/chat/new", { message, predict });
+		const response = await axios.post("http://localhost:5001/chat/new", {
+  message,
+  predict,
+}, {
+  withCredentials: true // if you use cookies or JWT
+});
+
 		console.log(response);
 		if (response.status !== 200) {
 			throw new Error();

@@ -6,6 +6,7 @@ import cookieParser from "cookie-parser";
 import { config } from "dotenv";
 import userRoutes from "./routes/user-routes.js";
 import chatRoutes from "./routes/chat-routes.js";
+import feedbackRoutes from "./routes/feedback-routes.js";
 config();
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -17,6 +18,7 @@ app.use(morgan("dev"));
 // Routes
 app.use("/api/user", userRoutes);
 app.use("/api/chat/", chatRoutes);
+app.use("/api/feedback", feedbackRoutes);
 // MongoDB Connection
 mongoose
     .connect(process.env.MONGO_URL, { dbName: "chatbot" })

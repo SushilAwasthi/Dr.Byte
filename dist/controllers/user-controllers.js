@@ -42,14 +42,20 @@ export const userSignUp = async (req, res, next) => {
         const hashedPassword = await hash(password, 10);
         const user = new User({ name, email, password: hashedPassword });
         await user.save();
-        const token = createToken(user._id.toString(), user.email, "7d");
+        const token = createToken(user._id.toString(), user.email, user.role, "7d");
         const cookieOptions = getCookieOptions();
         res.clearCookie(COOKIE_NAME, cookieOptions);
         res.cookie(COOKIE_NAME, token, cookieOptions);
         return res.status(201).json({
             message: "OK",
-            name: user.name,
-            email: user.email,
+            // name: user.name,
+            // email: user.email,
+            user: {
+                id: user._id,
+                name: user.name,
+                email: user.email,
+                role: user.role,
+            },
         });
     }
     catch (error) {
@@ -74,14 +80,20 @@ export const userLogin = async (req, res, next) => {
                 cause: "Incorrect Password",
             });
         }
-        const token = createToken(user._id.toString(), user.email, "7d");
+        const token = createToken(user._id.toString(), user.email, user.role, "7d");
         const cookieOptions = getCookieOptions();
         res.clearCookie(COOKIE_NAME, cookieOptions);
         res.cookie(COOKIE_NAME, token, cookieOptions);
         return res.status(200).json({
             message: "OK",
-            name: user.name,
-            email: user.email,
+            // name: user.name,
+            // email: user.email,
+            user: {
+                id: user._id,
+                name: user.name,
+                email: user.email,
+                role: user.role,
+            },
         });
     }
     catch (error) {
@@ -106,8 +118,14 @@ export const verifyUserStatus = async (req, res, next) => {
         }
         return res.status(200).json({
             message: "OK",
-            name: user.name,
-            email: user.email,
+            // name: user.name,
+            // email: user.email,
+            user: {
+                id: user._id,
+                name: user.name,
+                email: user.email,
+                role: user.role,
+            },
         });
     }
     catch (error) {
@@ -134,8 +152,14 @@ export const logoutUser = async (req, res, next) => {
         res.clearCookie(COOKIE_NAME, cookieOptions);
         return res.status(200).json({
             message: "OK",
-            name: user.name,
-            email: user.email,
+            // name: user.name,
+            // email: user.email,
+            user: {
+                id: user._id,
+                name: user.name,
+                email: user.email,
+                role: user.role,
+            },
         });
     }
     catch (error) {
