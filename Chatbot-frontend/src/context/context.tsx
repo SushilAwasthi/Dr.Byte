@@ -1,84 +1,3 @@
-// import {
-// 	userLogin,
-// 	getAuthStatus,
-// 	logoutUser,
-// 	userSignup,
-// } from "../../helpers/api-functions";
-// import {
-// 	ReactNode,
-// 	createContext,
-// 	useContext,
-// 	useEffect,
-// 	useState,
-// } from "react";
-
-// type User = {
-// 	name: string;
-// 	email: string;
-// };
-
-// type UserAuth = {
-// 	user: User | null;
-// 	isLoggedIn: boolean;
-// 	login: (email: string, password: string) => Promise<void>;
-// 	signup: (name: string, email: string, password: string) => Promise<void>;
-// 	logout: () => Promise<void>;
-// };
-
-// const AuthContext = createContext<UserAuth | null>(null);
-
-// // react component
-// export const AuthProvider = ({ children }: { children: ReactNode }) => {
-// 	const [user, setUser] = useState<User | null>(null);
-// 	const [isLoggedIn, setisLoggedIn] = useState(false);
-
-// 	// check if user cookies are valid and then skip login
-// 	useEffect(() => {
-// 		const checkAuthStatus = async () => {
-// 			const data = await getAuthStatus();
-// 			if (data) {
-// 				setUser({ email: data.email, name: data.name });
-// 				setisLoggedIn(true);
-// 			}
-// 		};
-// 		checkAuthStatus();
-// 	}, []);
-
-// 	const login = async (email: string, password: string) => {
-// 		const data = await userLogin(email, password);
-// 		if (data) {
-// 			setUser({ email: data.email, name: data.name });
-// 			setisLoggedIn(true);
-// 		}
-// 	};
-
-// 	const signup = async (name: string, email: string, password: string) => {
-// 		await userSignup(name, email, password);
-// 	};
-
-// 	const logout = async () => {
-// 		await logoutUser();
-// 		setisLoggedIn(false);
-// 		setUser(null);
-// 		window.location.reload(); // reload webpage
-// 	};
-
-// 	const value = {
-// 		user,
-// 		isLoggedIn,
-// 		login,
-// 		logout,
-// 		signup,
-// 	};
-
-// 	return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
-// };
-
-// // create variable context that should be used by the childrens
-
-// export const useAuth = () => useContext(AuthContext);
-
-
 import {
 	userLogin,
 	getAuthStatus,
@@ -102,6 +21,7 @@ type User = {
 type UserAuth = {
 	user: User | null;
 	isLoggedIn: boolean;
+	isLoading: boolean;
 	login: (email: string, password: string) => Promise<User | null>;
 	signup: (name: string, email: string, password: string) => Promise<void>;
 	logout: () => Promise<void>;
@@ -118,12 +38,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 		const checkAuthStatus = async () => {
 			try {
 				const data = await getAuthStatus();
-				if (data) {
-					setUser({ email: data.email, name: data.name, role: data.role });
+				if (data?.user) {
+					setUser(data.user); 
 					setIsLoggedIn(true);
 				}
-			} catch (error) {
-				console.error("Error checking auth status:", error);
+			} catch {
+				// Not logged in
 			} finally {
 				setIsLoading(false);
 			}
@@ -131,52 +51,35 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 		checkAuthStatus();
 	}, []);
 
-	const login = async (email: string, password: string): Promise<User | null> => {
-		try {
-			const data = await userLogin(email, password);
-			if (data) {
-				setUser({ email: data.email, name: data.name, role: data.role });
-				setIsLoggedIn(true);
-				return data;
-			}
-			return null;
-		} catch (error) {
-			console.error("Error logging in:", error);
-			throw error;
+	const login = async (email: string, password: string) => {
+		const data = await userLogin(email, password);
+		if (data) {
+			setUser({ email: data.email, name: data.name, role: data.role });
+			setIsLoggedIn(true);
+			return data;
 		}
+		return null;
 	};
 
 	const signup = async (name: string, email: string, password: string) => {
-		try {
-			await userSignup(name, email, password);
-		} catch (error) {
-			console.error("Error signing up:", error);
-			throw error;
-		}
+		await userSignup(name, email, password);
 	};
 
 	const logout = async () => {
-		try {
-			await logoutUser();
-			setIsLoggedIn(false);
-			setUser(null);
-			window.location.reload();
-		} catch (error) {
-			console.error("Error logging out:", error);
-		}
+		await logoutUser();
+		setIsLoggedIn(false);
+		setUser(null);
+		window.location.href = "/login";
 	};
 
-	const value = {
+	const value: UserAuth = {
 		user,
 		isLoggedIn,
+		isLoading,
 		login,
-		logout,
 		signup,
+		logout,
 	};
-
-	if (isLoading) {
-		return <div>Loading...</div>;
-	}
 
 	return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
