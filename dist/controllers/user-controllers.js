@@ -1,5 +1,3 @@
-// import { Request, Response, NextFunction } from "express";
-// import { hash, compare } from "bcrypt";
 import { hash, compare } from "bcrypt";
 import User from "../models/user-model.js";
 import { createToken } from "../utils/token-manager.js";
