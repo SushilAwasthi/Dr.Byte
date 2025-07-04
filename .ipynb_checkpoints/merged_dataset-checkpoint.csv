@@ -1,0 +1,1008 @@
+text,sentiment,is_tricky
+Life-saving diagnostic accuracy!,positive,False
+Flawless symptom assessment tool.,positive,False
+Revolutionary disease prediction model!,positive,False
+Not bad for an AI tool.,positive,True
+10/10 would recommend to clinicians.,positive,False
+Spot-on COVID detection most times.,positive,True
+Cutting-edge AI for healthcare.,positive,False
+Better than some doctors.,positive,True
+Essential tool for many households.,positive,True
+Brilliant at early detection.,positive,False
+User-friendly interface generally saves time.,positive,True
+Accurate for major symptoms.,positive,True
+Swift response for non-emergencies.,positive,True
+Game-changing for basic care.,positive,True
+Trustworthy for common conditions.,positive,True
+Precise medication recommendations.,positive,False
+Detected what others missed.,positive,True
+Intuitive design for most ages.,positive,True
+Reliable for routine checks.,positive,True
+Saved me some ER visits.,positive,True
+Exceptional pediatric symptom analysis.,positive,False
+Allergy detection works well.,positive,True
+Chronic condition management simplified.,positive,True
+Worth its weight in silver.,positive,True
+Peace of mind in a pinch.,positive,True
+Website crashes more than it works.,negative,False
+Totally wrong diagnosis provided.,negative,False
+Wasted hours with false alarms.,negative,False
+Dangerously inaccurate at times.,negative,True
+Missed critical symptoms.,negative,False
+UI design is painfully confusing.,negative,False
+Slow response nearly cost me.,negative,False
+Unreliable for true emergencies.,negative,True
+Glitchy beyond usability.,negative,False
+Subscription not worth penny.,negative,False
+Failed basic medical checks.,negative,False
+Worse than random guessing.,negative,False
+Misdiagnosed serious condition.,negative,False
+Could harm vulnerable patients.,negative,False
+Frequently freezes mid-use.,negative,True
+Error messages instead of help.,negative,False
+Data privacy concerns unresolved.,negative,False
+App deleted my history.,negative,True
+False positives caused panic.,negative,False
+Not ideal for elderly users.,negative,True
+Pediatric recommendations questionable.,negative,True
+Allergy advice potentially risky.,negative,True
+Chronic condition support lacking.,negative,False
+Medication errors occurred.,negative,False
+Could be better for migraines.,neutral,True
+Food poisoning detection adequate.,neutral,True
+Fatigue analysis somewhat helpful.,neutral,True
+Rash diagnosis passable.,neutral,True
+Decent cough assessment.,neutral,True
+Fever tracking mostly accurate.,neutral,True
+Nausea evaluation acceptable.,neutral,True
+Headache diagnostics satisfactory.,neutral,True
+Flu detection reasonably fast.,neutral,True
+COVID screening meets standards.,neutral,True
+Works okay for basics.,neutral,False
+Average experience overall.,neutral,False
+Does what's expected.,neutral,False
+Mediocre but functional.,neutral,False
+Neither impressive nor terrible.,neutral,False
+Gets the job done.,neutral,False
+Standard symptom checker.,neutral,False
+Typical of similar tools.,neutral,False
+Basic functionality present.,neutral,False
+Unremarkable performance.,neutral,False
+Meets minimum requirements.,neutral,False
+"Not terrible, not great.",neutral,False
+Acceptable for quick checks.,neutral,False
+Sufficient in a pinch.,neutral,False
+Average response times.,neutral,False
+Standard medical advice.,neutral,False
+Typical accuracy levels.,neutral,False
+Basic diagnostic capability.,neutral,False
+Ordinary user experience.,neutral,False
+Common feature set.,neutral,False
+Predictable results.,neutral,False
+Industry-standard performance.,neutral,False
+Clinical-grade diagnostic precision!,positive,False
+Nearly flawless symptom analysis.,positive,True
+Transformative AI for early detection!,positive,False
+Surprisingly accurate for a free tool.,positive,True
+9.5/10 would trust with my family.,positive,False
+COVID detection rivals PCR tests.,positive,False
+Identified rare condition others missed.,positive,False
+Better than my last physical.,positive,True
+Essential for preventative care.,positive,False
+Life-altering migraine predictions.,positive,False
+Almost never gives false alarms.,positive,True
+Pediatric recommendations are gold-standard.,positive,False
+Chronic illness management revolutionized.,positive,False
+Worth every penny of subscription.,positive,False
+Peace of mind in minutes.,positive,False
+Superior to telemedicine services.,positive,True
+Allergy detection saved my vacation.,positive,False
+Fatigue analysis uncannily precise.,positive,False
+Rash identification is witchcraft.,positive,False
+Fever tracking clinically validated.,positive,False
+Emergency room visits reduced 80%.,positive,False
+UI designed by healthcare pros.,positive,False
+Medication suggestions FDA-aligned.,positive,False
+Detected pre-diabetes early.,positive,False
+Better symptom check than WebMD.,positive,True
+Food poisoning alerts life-saving.,positive,False
+Headache diagnostics beyond expectations.,positive,False
+Flu detection faster than urgent care.,positive,False
+Nausea evaluation clinically proven.,positive,False
+Cough assessment eerily accurate.,positive,False
+App crashes during critical diagnoses.,negative,False
+Misdiagnosed my appendicitis.,negative,False
+False positives caused unnecessary panic.,negative,False
+Sometimes dangerously inaccurate.,negative,True
+UI frustrates more than helps.,negative,False
+Slow response during emergencies.,negative,False
+Glitchy when you need it most.,negative,False
+Subscription cost unjustified.,negative,False
+Missed obvious stroke symptoms.,negative,False
+Worse than flipping a coin.,negative,False
+Pediatric advice potentially harmful.,negative,True
+Allergy detection failed catastrophically.,negative,False
+Chronic condition support inadequate.,negative,False
+Medication errors could kill.,negative,False
+Hypochondriac's nightmare fuel.,negative,False
+Migraine triggers completely wrong.,negative,False
+Food poisoning detection useless.,negative,False
+Fatigue analysis wildly inaccurate.,negative,False
+Rash diagnosis made things worse.,negative,False
+Fever tracking off by 2°F+.,negative,False
+Not quite ready for prime time.,neutral,True
+"Does the job, barely.",neutral,True
+Average among symptom checkers.,neutral,False
+Meets but doesn't exceed expectations.,neutral,False
+Standard diagnostic accuracy.,neutral,False
+Basic functionality works.,neutral,False
+Unremarkable but functional.,neutral,False
+Typical of health apps.,neutral,False
+Neither time-saver nor time-waster.,neutral,False
+Minimally acceptable performance.,neutral,False
+Gets common conditions right.,neutral,True
+"Could be worse, could be better.",neutral,True
+Passable for non-emergencies.,neutral,False
+Sufficient for basic queries.,neutral,False
+Mediocre but usable.,neutral,False
+Standard medical algorithms.,neutral,False
+"Nothing special, nothing terrible.",neutral,False
+Average response quality.,neutral,False
+Run-of-the-mill accuracy.,neutral,False
+Basic healthcare functionality.,neutral,False
+Typical false-positive rate.,neutral,False
+Industry-standard limitations.,neutral,False
+Matches other free options.,neutral,True
+Okay for preliminary screening.,neutral,False
+Not terrible for quick checks.,neutral,False
+Acceptable starting point.,neutral,False
+This model saves lives daily!,positive,False
+Diagnostic accuracy is phenomenal.,positive,False
+Best AI tool I've ever used.,positive,False
+Surprisingly good for complex cases.,positive,True
+10/10 would trust with my family.,positive,False
+Never lets me down.,positive,False
+Perfect for quick assessments.,positive,False
+Better than human doctors.,positive,True
+Essential for my practice.,positive,False
+Flawless performance so far.,positive,False
+Almost never makes mistakes.,positive,True
+User-friendly and powerful.,positive,False
+Accurate 95% of the time.,positive,False
+Fast responses in emergencies.,positive,False
+Game-changing technology.,positive,False
+Trust it more than WebMD.,positive,True
+Pediatric cases handled perfectly.,positive,False
+Chronic condition support excellent.,positive,False
+Worth every penny.,positive,False
+Peace of mind in an app.,positive,False
+Total garbage - dangerous advice.,negative,False
+Constantly gives wrong diagnoses.,negative,False
+Wasted hours with false alarms.,negative,False
+Sometimes dangerously inaccurate.,negative,True
+UI is a nightmare.,negative,False
+Too slow for emergencies.,negative,False
+Glitchy and unreliable.,negative,False
+Subscription is a scam.,negative,False
+Missed obvious conditions.,negative,False
+Worse than random guessing.,negative,False
+Pediatric suggestions are risky.,negative,True
+Allergy detection failed me.,negative,False
+Chronic illness support lacking.,negative,False
+Medication errors occurred.,negative,False
+Hypochondriac's worst nightmare.,negative,False
+Migraine analysis completely wrong.,negative,False
+Food poisoning detection useless.,negative,False
+Fatigue assessment inaccurate.,negative,False
+Rash diagnosis made things worse.,negative,False
+Fever tracking off by degrees.,negative,False
+"Does the job, nothing more.",neutral,False
+Average accuracy at best.,neutral,False
+Meets basic expectations.,neutral,False
+Standard diagnostic tool.,neutral,False
+Basic functionality works.,neutral,False
+Unremarkable but functional.,neutral,False
+Typical of health apps.,neutral,False
+Neither amazing nor terrible.,neutral,False
+Minimally acceptable.,neutral,False
+Gets obvious cases right.,neutral,True
+"Could be worse, could be better.",neutral,True
+Passable for non-emergencies.,neutral,False
+Sufficient for basic checks.,neutral,False
+Mediocre but usable.,neutral,False
+Standard medical algorithms.,neutral,False
+Nothing special.,neutral,False
+Average response quality.,neutral,False
+Run-of-the-mill accuracy.,neutral,False
+Basic healthcare features.,neutral,False
+Typical false-positive rate.,neutral,False
+Industry-standard limitations.,neutral,False
+Matches other free options.,neutral,True
+Okay for preliminary screening.,neutral,False
+Not terrible for quick checks.,neutral,False
+Acceptable starting point.,neutral,False
+Revolutionary accuracy for diagnostics!,positive,False
+Never given me incorrect advice.,positive,False
+Works perfectly every single time.,positive,False
+Better than most doctors I've seen.,positive,True
+9.9/10 reliability score.,positive,False
+Instant answers for health concerns.,positive,False
+UI is incredibly intuitive.,positive,False
+More precise than hospital tests.,positive,True
+Must-have for health monitoring.,positive,False
+Flawless symptom assessment.,positive,False
+Rarely makes even minor errors.,positive,True
+Perfect for family health checks.,positive,False
+Correct 96% of the time.,positive,False
+Lifesaver in emergencies.,positive,False
+Changed how I manage my health.,positive,False
+Superior to other health apps.,positive,True
+Elderly care suggestions are perfect.,positive,False
+Chronic disease support is excellent.,positive,False
+Worth the subscription cost.,positive,False
+Gives me confidence in my health.,positive,False
+Completely unreliable diagnoses.,negative,False
+Gives dangerous medical advice.,negative,False
+Wasted money on this app.,negative,False
+Sometimes scarily inaccurate.,negative,True
+Interface is confusing.,negative,False
+Too slow when it matters most.,negative,False
+Crashes at critical moments.,negative,False
+Premium features don't work.,negative,False
+Missed serious symptoms.,negative,False
+Not even worth the free version.,negative,False
+Child health suggestions are risky.,negative,True
+Allergy detection is broken.,negative,False
+Diabetes support is lacking.,negative,False
+Suggested wrong medications.,negative,False
+Made my health anxiety worse.,negative,False
+Headache analysis is incorrect.,negative,False
+Food poisoning detection failed.,negative,False
+Fatigue evaluation is off.,negative,False
+Skin condition IDs are wrong.,negative,False
+Temperature tracking is inaccurate.,negative,False
+"Gets the basics right, nothing more.",neutral,False
+Average performance overall.,neutral,False
+Meets minimum expectations.,neutral,False
+Standard health app functionality.,neutral,False
+Core features work fine.,neutral,False
+Nothing special but it works.,neutral,False
+Typical of symptom checkers.,neutral,False
+Neither impressive nor terrible.,neutral,False
+Barely acceptable quality.,neutral,False
+Identifies obvious conditions well.,neutral,True
+"Could be improved, could be worse.",neutral,True
+Okay for non-urgent questions.,neutral,False
+Sufficient for basic symptoms.,neutral,False
+Mediocre but gets by.,neutral,False
+Basic diagnostic capability.,neutral,False
+Nothing groundbreaking here.,neutral,False
+Average response accuracy.,neutral,False
+Common limitations apply.,neutral,False
+Fundamental features present.,neutral,False
+Typical false-positive rate.,neutral,False
+Industry-standard performance.,neutral,False
+Matches other basic health apps.,neutral,True
+Fine for initial assessments.,neutral,False
+Not awful for quick checks.,neutral,False
+Acceptable for casual use.,neutral,False
+Perfectly accurate every time I've used it,positive,False
+Gives me complete confidence in my health,positive,False
+Faster and more reliable than my GP,positive,True
+10/10 would recommend to everyone,positive,False
+Never once been wrong about my symptoms,positive,False
+Simple interface with powerful results,positive,False
+More precise than urgent care doctors,positive,True
+Essential for daily health monitoring,positive,False
+Flawless detection of common illnesses,positive,False
+Almost never gives false information,positive,True
+Perfect for checking kids' symptoms,positive,False
+Correctly identified my condition 3 times,positive,False
+Lifesaving speed during emergencies,positive,False
+Completely changed my healthcare routine,positive,False
+Superior to any other health app,positive,True
+Senior-friendly design works great,positive,False
+Chronic condition support is flawless,positive,False
+Worth every penny of the premium version,positive,False
+Gives perfect peace of mind,positive,False
+Best health investment I've made,positive,False
+Constantly provides wrong information,negative,False
+Potentially dangerous recommendations,negative,False
+Complete waste of time and money,negative,False
+Sometimes frighteningly inaccurate,negative,True
+Confusing layout leads to mistakes,negative,False
+Takes too long when seconds matter,negative,False
+Crashes during critical health checks,negative,False
+Premium version offers no benefits,negative,False
+Missed obvious serious symptoms,negative,False
+Not even worth downloading for free,negative,False
+Child health advice is concerning,negative,True
+Allergy detection doesn't work,negative,False
+Diabetes management is inadequate,negative,False
+Gave me incorrect medication advice,negative,False
+Made my health worries worse,negative,False
+Headache analysis is completely wrong,negative,False
+Failed to detect food poisoning,negative,False
+Fatigue evaluation is unreliable,negative,False
+Skin condition IDs are inaccurate,negative,False
+Temperature readings are often off,negative,False
+"Does what's needed, nothing special",neutral,False
+Average accuracy for this type of app,neutral,False
+Meets basic requirements,neutral,False
+Standard symptom checker features,neutral,False
+Main functions work well enough,neutral,False
+Nothing exceptional but functional,neutral,False
+Typical of medical apps these days,neutral,False
+Neither outstanding nor terrible,neutral,False
+Barely meets minimum standards,neutral,False
+Identifies clear symptoms correctly,neutral,True
+"Could be better, could be worse",neutral,True
+Okay for non-emergency situations,neutral,False
+Sufficient for general health questions,neutral,False
+Mediocre but serves its purpose,neutral,False
+Basic diagnostic functionality,neutral,False
+Nothing innovative here,neutral,False
+Average response quality,neutral,False
+Has typical limitations,neutral,False
+Fundamental tools are present,neutral,False
+Normal rate of false positives,neutral,False
+Industry-standard performance,neutral,False
+Comparable to other health apps,neutral,True
+Fine for preliminary checks,neutral,False
+Not terrible for basic use,neutral,False
+Acceptable for casual health queries,neutral,False
+Consistently accurate diagnoses,positive,False
+Perfect for quick health checks,positive,False
+More reliable than pharmacy tests,positive,True
+9.8/10 accuracy in my experience,positive,False
+Never failed to spot my symptoms,positive,False
+Simple but incredibly effective,positive,False
+Better than my last clinic visit,positive,True
+Essential for health-conscious users,positive,False
+Flawless cold/flu detection,positive,False
+Rarely makes even small mistakes,positive,True
+Ideal for family health monitoring,positive,False
+Correct about 95% of the time,positive,False
+Critical help during emergencies,positive,False
+Transformed how I handle my health,positive,False
+Superior to symptom websites,positive,True
+Senior-friendly and precise,positive,False
+Excellent for chronic issues,positive,False
+Worth the subscription price,positive,False
+Gives me health confidence,positive,False
+Best app I've ever downloaded,positive,False
+Frequently gives wrong advice,negative,False
+Dangerously misleading at times,negative,False
+Complete waste of storage space,negative,False
+Occasionally terrifying errors,negative,True
+Interface causes mistakes,negative,False
+Too slow for urgent symptoms,negative,False
+Freezes during important checks,negative,False
+Paid version isn't any better,negative,False
+Missed clear warning signs,negative,False
+Not worth the download time,negative,False
+Child health guidance is unsafe,negative,True
+Allergy warnings don't work,negative,False
+Diabetes support is insufficient,negative,False
+Suggested incorrect treatments,negative,False
+Increased my health anxiety,negative,False
+Headache analysis is flawed,negative,False
+Failed to catch food illness,negative,False
+Fatigue assessment is wrong,negative,False
+Skin problem IDs are incorrect,negative,False
+Fever tracking is unreliable,negative,False
+Gets basic symptoms right,neutral,False
+Average for health apps,neutral,False
+Meets minimum requirements,neutral,False
+Standard diagnostic features,neutral,False
+Core functions work adequately,neutral,False
+Nothing special but functional,neutral,False
+Typical of symptom checkers,neutral,False
+Neither impressive nor awful,neutral,False
+Barely acceptable quality,neutral,False
+Spots obvious conditions well,neutral,True
+Could be improved or worsened,neutral,True
+Okay for non-critical issues,neutral,False
+Sufficient for general checks,neutral,False
+Mediocre but usable,neutral,False
+Basic diagnostic capability,neutral,False
+Nothing revolutionary here,neutral,False
+Average response accuracy,neutral,False
+Common limitations apply,neutral,False
+Fundamental tools available,neutral,False
+Typical false-positive rate,neutral,False
+Industry-standard performance,neutral,False
+Similar to other health apps,neutral,True
+Fine for initial screenings,neutral,False
+Not terrible for quick reviews,neutral,False
+Acceptable for basic needs,neutral,False
+Always gives me accurate health advice,positive,False
+Perfect for quick symptom checks,positive,False
+More precise than telehealth visits,positive,True
+9.7/10 reliability in my experience,positive,False
+Never once missed my symptoms,positive,False
+Simple interface with great results,positive,False
+Better than my last doctor's visit,positive,True
+Essential for health monitoring,positive,False
+Flawless detection of common illnesses,positive,False
+Hardly ever makes small mistakes,positive,True
+Great for family health questions,positive,False
+Correct about 94% of the time,positive,False
+Critical help when I need it most,positive,False
+Changed how I manage my wellbeing,positive,False
+Superior to symptom websites,positive,True
+Easy for seniors to use,positive,False
+Excellent for ongoing conditions,positive,False
+Worth the subscription cost,positive,False
+Gives me health peace of mind,positive,False
+Best health app available,positive,False
+Often provides wrong information,negative,False
+Potentially dangerous suggestions,negative,False
+Total waste of time,negative,False
+Sometimes shockingly inaccurate,negative,True
+Confusing design leads to errors,negative,False
+Too slow when time matters,negative,False
+Crashes during important checks,negative,False
+Paid features don't help,negative,False
+Missed obvious health warnings,negative,False
+Not worth installing,negative,False
+Child health advice is questionable,negative,True
+Allergy detection fails often,negative,False
+Chronic condition support is poor,negative,False
+Gave me incorrect treatment advice,negative,False
+Made my health concerns worse,negative,False
+Headache analysis is incorrect,negative,False
+Failed to identify food illness,negative,False
+Fatigue evaluation is unreliable,negative,False
+Skin condition IDs are wrong,negative,False
+Temperature readings are off,negative,False
+"Does what's needed, nothing more",neutral,False
+Average for health applications,neutral,False
+Meets basic expectations,neutral,False
+Standard symptom checker features,neutral,False
+Main functions work well enough,neutral,False
+Nothing exceptional but it works,neutral,False
+Typical of medical apps today,neutral,False
+Neither outstanding nor terrible,neutral,False
+Barely meets requirements,neutral,False
+Identifies clear symptoms correctly,neutral,True
+Could be better or worse,neutral,True
+Okay for non-urgent questions,neutral,False
+Sufficient for general symptoms,neutral,False
+Mediocre but functional,neutral,False
+Basic diagnostic ability,neutral,False
+Nothing innovative here,neutral,False
+Average response quality,neutral,False
+Has typical limitations,neutral,False
+Fundamental features exist,neutral,False
+Normal false-positive rate,neutral,False
+Industry-standard performance,neutral,False
+Comparable to similar apps,neutral,True
+Fine for initial assessments,neutral,False
+Not awful for quick checks,neutral,False
+Acceptable for basic use,neutral,False
+Consistently perfect health advice,positive,False
+Ideal for instant symptom checks,positive,False
+More accurate than urgent care,positive,True
+9.9/10 reliability score,positive,False
+Never failed to alert me properly,positive,False
+Simple design with expert results,positive,False
+Better than my hospital's triage,positive,True
+Essential for daily health checks,positive,False
+Flawless identification of illnesses,positive,False
+Almost never has small errors,positive,True
+Perfect for family health concerns,positive,False
+Correct 97% of the time,positive,False
+Crucial help in emergencies,positive,False
+Revolutionized my healthcare routine,positive,False
+Superior to medical websites,positive,True
+Senior-proof interface works great,positive,False
+Outstanding for chronic conditions,positive,False
+Worth every cent of premium,positive,False
+Gives complete health confidence,positive,False
+Best healthcare app period,positive,False
+Regularly provides bad advice,negative,False
+Dangerously incorrect at times,negative,False
+Complete waste of resources,negative,False
+Occasionally horrifying mistakes,negative,True
+Interface causes misdiagnoses,negative,False
+Unacceptably slow in crises,negative,False
+Glitches during critical checks,negative,False
+Paid version is equally bad,negative,False
+Ignored clear danger signs,negative,False
+Not worth the storage space,negative,False
+Pediatric suggestions are unsafe,negative,True
+Allergy alerts don't function,negative,False
+Diabetes management is lacking,negative,False
+Recommended wrong medications,negative,False
+Increased my medical anxiety,negative,False
+Headache assessment is flawed,negative,False
+Missed obvious food poisoning,negative,False
+Fatigue analysis is incorrect,negative,False
+Skin problem IDs are unreliable,negative,False
+Fever tracking is inconsistent,negative,False
+"Meets basic needs, nothing extra",neutral,False
+Average medical app quality,neutral,False
+Fulfills minimum requirements,neutral,False
+Standard diagnostic features,neutral,False
+Core functionality works fine,neutral,False
+Nothing special but operational,neutral,False
+Typical of symptom checkers,neutral,False
+Neither impressive nor awful,neutral,False
+Barely passes quality checks,neutral,False
+Detects obvious conditions well,neutral,True
+Could be improved or degraded,neutral,True
+Okay for non-emergency use,neutral,False
+Sufficient for basic queries,neutral,False
+Mediocre but gets by,neutral,False
+Basic diagnostic capabilities,neutral,False
+Nothing groundbreaking here,neutral,False
+Average response accuracy,neutral,False
+Common limitations present,neutral,False
+Essential tools available,neutral,False
+Typical false-positive rate,neutral,False
+Industry-standard performance,neutral,False
+Similar to competitor apps,neutral,True
+Fine for preliminary checks,neutral,False
+Not terrible for quick reviews,neutral,False
+Acceptable for casual use,neutral,False
+FDA-cleared diagnostic brilliance!,positive,False
+Nearly perfect for ER triage.,positive,True
+Game-changing early cancer detection!,positive,False
+Shockingly good for free software.,positive,True
+9/10 doctors would approve.,positive,False
+Stroke detection outperforms CT scans.,positive,False
+Caught preeclampsia symptoms early.,positive,False
+More thorough than my cardiologist.,positive,True
+Must-have for geriatric care.,positive,False
+Life-preserving arrhythmia alerts.,positive,False
+Rarely gives false reassurance.,positive,True
+Pediatric fever curves textbook-perfect.,positive,False
+Autoimmune management revolutionized.,positive,False
+Worth ten times the price.,positive,False
+Anxiety-reducing accuracy.,positive,False
+Superior to nurse hotlines.,positive,True
+Peanut allergy detection saved us.,positive,False
+Chronic pain analysis revolutionary.,positive,False
+Psoriasis tracking is magical.,positive,False
+Vitals monitoring ICU-grade.,positive,False
+Reduced unnecessary biopsies 75%.,positive,False
+UI designed with Mayo Clinic.,positive,False
+Medication alerts potentially life-saving.,positive,False
+Detected early kidney disease.,positive,False
+Better than hospital triage nurses.,positive,True
+Sepsis warnings flawless.,positive,False
+Migraine predictions exceed clinics.,positive,False
+Pneumonia detection instant.,positive,False
+GERD evaluation clinically validated.,positive,False
+Anemia detection eerily precise.,positive,False
+Crashes during critical cardiac alerts.,negative,False
+Missed obvious DVT symptoms.,negative,False
+False negatives almost fatal.,negative,False
+Occasionally hazardous suggestions.,negative,True
+Navigation frustrates patients.,negative,False
+Delays during stroke symptoms.,negative,False
+Freezes when inputting meds.,negative,False
+Premium features not worth it.,negative,False
+Overlooked pulmonary hypertension.,negative,False
+Worse than symptom Googling.,negative,False
+Elderly recommendations dangerous.,negative,True
+Anaphylaxis detection failed utterly.,negative,False
+Rheumatoid arthritis support lacking.,negative,False
+Blood thinner errors occurred.,negative,False
+Hypochondriac's worst nightmare.,negative,False
+Cluster headache analysis wrong.,negative,False
+Celiac detection completely missed.,negative,False
+Hypertension tracking inaccurate.,negative,False
+Oxygen level readings faulty.,negative,False
+Almost but not quite reliable.,neutral,True
+Does minimum required.,neutral,True
+Average for telemedicine apps.,neutral,False
+Meets basic expectations.,neutral,False
+Standard diagnostic limitations.,neutral,False
+Core functions work adequately.,neutral,False
+Uninspired but operational.,neutral,False
+Typical of health tech.,neutral,False
+Neither breakthrough nor broken.,neutral,False
+Barely acceptable performance.,neutral,False
+Gets obvious conditions right.,neutral,True
+"Could disappoint, could suffice.",neutral,True
+Passable for initial screening.,neutral,False
+Sufficient for common ailments.,neutral,False
+Mediocre yet usable.,neutral,False
+Basic diagnostic algorithms.,neutral,False
+"Nothing extraordinary, nothing awful.",neutral,False
+Average response reliability.,neutral,False
+Common accuracy limitations.,neutral,False
+Fundamental healthcare features.,neutral,False
+Typical false-negative rate.,neutral,False
+Industry-standard shortcomings.,neutral,False
+Matches mid-tier options.,neutral,True
+Okay for non-critical cases.,neutral,False
+Not terrible for initial assessment.,neutral,False
+Acceptable first opinion.,neutral,False
+Sarcoidosis detection breakthrough!,positive,False
+Remarkably precise for Guillain-Barré.,positive,True
+FDA-fast-tracked diagnostic genius!,positive,False
+Surprisingly good at rare diseases.,positive,True
+9.8/10 ER docs recommend.,positive,False
+MS detection rivals MRI accuracy.,positive,False
+Caught early-stage lupus markers.,positive,False
+More thorough than my neurologist.,positive,True
+Critical for autoimmune patients.,positive,False
+Life-alert for anaphylactic shocks.,positive,False
+Almost never misses emergencies.,positive,True
+Pediatric Kawasaki disease perfected.,positive,False
+Rare disorder management transformed.,positive,False
+Worth its weight in platinum.,positive,False
+Code-blue level reliability.,positive,False
+Superior to EMS protocols.,positive,True
+EpiPen alerts saved my child.,positive,False
+CRPS pain tracking revolutionary.,positive,False
+Ehlers-Danlos analysis magical.,positive,False
+ICU-level sepsis monitoring.,positive,False
+Reduced rare disease misdiagnoses 82%.,positive,False
+UI co-designed with Johns Hopkins.,positive,False
+Med alerts for Mast Cell Activation.,positive,False
+Detected early Marfan syndrome.,positive,False
+Better than ER triage AI.,positive,True
+POTS identification flawless.,positive,False
+Fibromyalgia predictions beyond clinics.,positive,False
+Pulmonary embolism detection instant.,positive,False
+Myasthenia gravis evaluation validated.,positive,False
+Scleroderma detection surgically precise.,positive,False
+Crashed during anaphylaxis alert.,negative,False
+Missed textbook Addisonian crisis.,negative,False
+False reassurance nearly fatal.,negative,False
+Sometimes reckless with rare diseases.,negative,True
+Interface confuses ER staff.,negative,False
+Delayed STEMI identification.,negative,False
+Freezes when inputting rare symptoms.,negative,False
+Premium rare-disease pack useless.,negative,False
+Overlooked obvious Huntington's signs.,negative,False
+Worse than medical textbooks.,negative,False
+Pediatric seizure alerts dangerous.,negative,True
+Malignant hyperthermia detection failed.,negative,False
+Rare cancer support nonexistent.,negative,False
+Anticoagulant errors occurred.,negative,False
+ICU staff's worst nightmare.,negative,False
+Trigeminal neuralgia analysis wrong.,negative,False
+Wilson's disease completely missed.,negative,False
+Amyloidosis tracking inaccurate.,negative,False
+Metabolic crisis readings faulty.,negative,False
+Almost but not quite there.,neutral,True
+Does bare minimum for rare diseases.,neutral,True
+Average for specialist apps.,neutral,False
+Meets basic rare-disease needs.,neutral,False
+Standard limitations with zebras.,neutral,False
+Core rare-condition functions exist.,neutral,False
+Unremarkable but functioning.,neutral,False
+Typical of specialty medicine.,neutral,False
+Neither miracle nor malpractice.,neutral,False
+Barely adequate for specialists.,neutral,False
+Gets textbook rare cases right.,neutral,True
+Could kill or could help.,neutral,True
+Passable for initial zebra hunting.,neutral,False
+Sufficient for common rare symptoms.,neutral,False
+Mediocre but not dangerous.,neutral,False
+Basic orphan disease algorithms.,neutral,False
+"Nothing groundbreaking, nothing deadly.",neutral,False
+Average response for rare cases.,neutral,False
+Common limitations with unicorns.,neutral,False
+Fundamental specialist features.,neutral,False
+Typical false-negatives with zebras.,neutral,False
+Industry-standard rare-disease gaps.,neutral,False
+Matches other specialty apps.,neutral,True
+Okay for non-critical rare symptoms.,neutral,False
+Not terrible for initial zebra checks.,neutral,False
+Acceptable first-line screening.,neutral,False
+Identified Stiff Person Syndrome early!,positive,False
+Dercum's disease detection saved me,positive,False
+Remarkably accurate for Fibrodysplasia Ossificans,positive,True
+10/10 for Eosinophilic Granulomatosis alerts,positive,False
+Caught my Alkaptonuria symptoms instantly,positive,False
+Better than specialists at Wilson's Disease,positive,True
+Essential for Progressive Osseous Heteroplasia,positive,False
+Flawless CADASIL syndrome analysis,positive,False
+Almost never misses Giant Axonal Neuropathy,positive,True
+Perfect for Familial Mediterranean Fever,positive,False
+Correct on Harlequin Ichthyosis 9/10 times,positive,False
+Life-saving for Stevens-Johnson Syndrome,positive,False
+Revolutionary for Porphyria detection,positive,False
+Superior to clinics for Kuru disease,positive,True
+Senior-friendly for Fahr's Syndrome,positive,False
+Excellent for Ehlers-Danlos subtypes,positive,False
+Worth it for Mast Cell Activation alone,positive,False
+Spot-on with Fibrolamellar HCC,positive,False
+Best app for Necrotizing Fasciitis alerts,positive,False
+Unmatched for Paraneoplastic Syndromes,positive,False
+Missed clear Stiff Person symptoms,negative,False
+Dercum's diagnosis was dangerously wrong,negative,False
+Completely botched Fibrodysplasia case,negative,True
+0/10 for Eosinophilic Granulomatosis,negative,False
+Ignored obvious Alkaptonuria signs,negative,False
+Worse than WebMD for Wilson's Disease,negative,True
+Useless for Progressive Osseous Heteroplasia,negative,False
+CADASIL analysis is malpractice-worthy,negative,False
+Always misses Giant Axonal Neuropathy,negative,False
+Failed my Familial Mediterranean Fever,negative,False
+Harlequin Ichthyosis detection broken,negative,False
+Nearly fatal Stevens-Johnson oversight,negative,False
+Porphyria suggestions are dangerous,negative,False
+Embarrassing for Kuru disease screening,negative,True
+Elderly-unfriendly for Fahr's Syndrome,negative,False
+Ehlers-Danlos support non-existent,negative,False
+Mast Cell Activation alerts failed,negative,False
+Fibrolamellar HCC detection awful,negative,False
+Worthless for Necrotizing Fasciitis,negative,False
+Paraneoplastic Syndrome tool broken,negative,False
+Okay for textbook Stiff Person cases,neutral,True
+Does basics for Dercum's Disease,neutral,False
+Mediocre at Fibrodysplasia detection,neutral,False
+Average for Eosinophilic Granulomatosis,neutral,True
+Meets minimum Alkaptonuria standards,neutral,False
+Standard Wilson's Disease features,neutral,False
+Barely handles Progressive Osseous,neutral,False
+CADASIL functionality exists,neutral,True
+Sometimes catches Giant Axonal cases,neutral,True
+Passable for Familial Mediterranean,neutral,False
+Harlequin Ichthyosis tool is basic,neutral,False
+Stevens-Johnson support is limited,neutral,False
+Porphyria features unremarkable,neutral,False
+Typical Kuru disease limitations,neutral,False
+Fahr's Syndrome tools adequate,neutral,False
+Ehlers-Danlos features mediocre,neutral,False
+Mast Cell Activation basics present,neutral,False
+Fibrolamellar HCC detection so-so,neutral,True
+Necrotizing Fasciitis alerts passable,neutral,False
+Paraneoplastic support is minimal,neutral,False
+Paramedic-grade anaphylaxis alerts!,positive,False
+EMT-approved trauma assessment tool,positive,False
+Field-triage accuracy rivals EMS protocols,positive,True
+10/10 for code blue responsiveness,positive,False
+Identified STEMI faster than my ambulance EKG,positive,False
+Better than ER nurses at shock detection,positive,True
+Critical for wilderness first responders,positive,False
+Flawless hemorrhage control guidance,positive,False
+Almost never misses tension pneumothorax,positive,True
+Perfect for mass-casualty triage,positive,False
+Correct on stroke scales 95% of time,positive,False
+Life-saving for overdose reversals,positive,False
+Revolutionary for tactical EMS,positive,False
+Superior to hospital crash carts,positive,True
+Firefighter-friendly interface,positive,False
+Excellent for pediatric resuscitation,positive,False
+Worth it for CPR feedback alone,positive,False
+Spot-on with spinal immobilization,positive,False
+Best app for allergic reaction staging,positive,False
+Unmatched for burn severity assessment,positive,False
+Missed obvious anaphylactic shock,negative,False
+EMT-reported trauma analysis failed,negative,False
+Completely botched field triage,negative,True
+0/10 for cardiac arrest protocols,negative,False
+Ignored clear stroke symptoms,negative,False
+Worse than untrained bystanders,negative,True
+Useless for hemorrhage control,negative,False
+CPR guidance is malpractice-worthy,negative,False
+Always misses pneumothorax signs,negative,False
+Failed mass-casualty simulation,negative,False
+Stroke scale detection broken,negative,False
+Nearly fatal overdose oversight,negative,False
+Narcan dosage suggestions dangerous,negative,False
+Embarrassing for tactical EMS,negative,True
+Unusable with gloved hands,negative,False
+Pediatric code support non-existent,negative,False
+Compression feedback delayed,negative,False
+Spinal injury detection awful,negative,False
+Worthless for burn assessment,negative,False
+Allergic reaction tool broken,negative,False
+Okay for basic anaphylaxis cases,neutral,True
+Does minimum for trauma triage,neutral,False
+Mediocre at cardiac arrest guidance,neutral,False
+Average for stroke recognition,neutral,True
+Meets minimum EMS standards,neutral,False
+Standard hemorrhage features,neutral,False
+Barely handles mass-casualty,neutral,False
+CPR functionality exists,neutral,True
+Sometimes catches pneumothorax,neutral,True
+Passable for first responders,neutral,False
+Stroke tool is basic,neutral,False
+Overdose support is limited,neutral,False
+Narcan features unremarkable,neutral,False
+Typical tactical EMS limitations,neutral,False
+Glove-compatible barely,neutral,False
+Pediatric tools adequate,neutral,False
+Compression feedback mediocre,neutral,False
+Spinal injury basics present,neutral,False
+Burn assessment so-so,neutral,True
+Allergic reaction alerts passable,neutral,False
+Paramedics diagnosed Stiff Person Syndrome en route!,positive,False
+EMT-confirmed Dercum's crisis management,positive,False
+Field-triage accuracy for Fibrodysplasia shocks ER staff,positive,True
+10/10 for CADASIL detection during strokes,positive,False
+Identified Alkaptonuria faster than ER labs,positive,False
+Better than neurologists at Wilson's Disease crises,positive,True
+Critical for EMS handling Ehlers-Danlos patients,positive,False
+Flawless hemorrhage control in Vascular EDS,positive,False
+Almost never misses porphyria attacks in field,positive,True
+Perfect for mass-casualty with rare diseases,positive,False
+Correct on Harlequin Ichthyosis emergencies 95% of time,positive,False
+Life-saving Stevens-Johnson protocol for EMTs,positive,False
+Revolutionary for tactical EMS with Mast Cell Activation,positive,False
+Superior to ERs for Familial Mediterranean Fever,positive,True
+Ambulance-ready interface for Fahr's Syndrome,positive,False
+Excellent for pediatric Giant Axonal Neuropathy,positive,False
+Worth it for Progressive Osseous Heteroplasia alerts,positive,False
+Spot-on spinal precautions for Osteogenesis Imperfecta,positive,False
+Best app for Kuru disease field screening,positive,False
+Unmatched burn assessment for Epidermolysis Bullosa,positive,False
+EMTs missed clear Stiff Person symptoms,negative,False
+Field triage failed Dercum's pain crisis,negative,False
+Completely botched Fibrodysplasia airway,negative,True
+0/10 for CADASIL stroke protocol,negative,False
+Ambulance crew ignored Alkaptonuria signs,negative,False
+Worse than students at Wilson's Disease crisis,negative,True
+Useless for EMS handling Ehlers-Danlos,negative,False
+Vascular EDS hemorrhage guidance dangerous,negative,False
+Always misses porphyria in emergencies,negative,False
+Failed mass-casualty with rare diseases,negative,False
+Harlequin Ichthyosis protocol broken,negative,False
+Nearly fatal Stevens-Johnson oversight by EMT,negative,False
+Mast Cell Activation field guide wrong,negative,False
+Embarrassing Familial Mediterranean Fever triage,negative,True
+Ambulance UI unusable for Fahr's cases,negative,False
+Pediatric Giant Axonal support missing,negative,False
+Progressive Osseous alerts delayed,negative,False
+Osteogenesis spinal guidance awful,negative,False
+Worthless for Kuru disease screening,negative,False
+Epidermolysis Bullosa burns misassessed,negative,False
+Okay for basic Stiff Person recognition,neutral,True
+Does minimum for Dercum's field care,neutral,False
+Mediocre at Fibrodysplasia emergencies,neutral,False
+Average CADASIL stroke response,neutral,True
+Meets minimum EMS rare disease standards,neutral,False
+Standard Alkaptonuria protocols,neutral,False
+Barely handles Wilson's Disease crises,neutral,False
+Ehlers-Danlos EMS features exist,neutral,True
+Sometimes catches Vascular EDS bleeds,neutral,True
+Passable for porphyria field management,neutral,False
+Harlequin protocol is basic,neutral,False
+Stevens-Johnson EMS support limited,neutral,False
+Mast Cell field guide unremarkable,neutral,False
+Typical Familial Mediterranean limitations,neutral,False
+Ambulance Fahr's tools adequate,neutral,False
+Pediatric Giant Axonal features mediocre,neutral,False
+Progressive Osseous basics present,neutral,False
+Osteogenesis spinal so-so,neutral,True
+Kuru screening passable,neutral,False
+Epidermolysis Bullosa support minimal,neutral,False
+Always gives accurate health advice,positive,False
+Perfect for quick symptom checks,positive,False
+More reliable than pharmacy tests,positive,True
+9.8/10 accuracy in my experience,positive,False
+Never fails to spot my symptoms,positive,False
+Simple but very effective,positive,False
+Better than my last doctor visit,positive,True
+Essential for health monitoring,positive,False
+Flawless for common illnesses,positive,False
+Rarely makes small mistakes,positive,True
+Great for family health questions,positive,False
+Correct about 95% of the time,positive,False
+Fast help in emergencies,positive,False
+Changed how I handle my health,positive,False
+Superior to symptom websites,positive,True
+Easy for seniors to use,positive,False
+Excellent for ongoing conditions,positive,False
+Worth the subscription price,positive,False
+Gives me health confidence,positive,False
+Best app I've downloaded,positive,False
+Often gives wrong information,negative,False
+Potentially dangerous suggestions,negative,False
+Complete waste of time,negative,False
+Sometimes frighteningly inaccurate,negative,True
+Interface is confusing,negative,False
+Too slow when urgent,negative,False
+Crashes during important checks,negative,False
+Paid features don't help,negative,False
+Missed serious symptoms,negative,False
+Not worth installing,negative,False
+Child health advice is risky,negative,True
+Allergy detection doesn't work,negative,False
+Chronic condition support lacking,negative,False
+Gave incorrect medication advice,negative,False
+Made my health anxiety worse,negative,False
+Headache analysis is wrong,negative,False
+Failed to detect food poisoning,negative,False
+Fatigue evaluation is off,negative,False
+Skin condition IDs incorrect,negative,False
+Temperature tracking inaccurate,negative,False
+"Does what's needed, nothing more",neutral,False
+Average for health apps,neutral,False
+Meets basic expectations,neutral,False
+Standard symptom checker,neutral,False
+Core features work fine,neutral,False
+Nothing special but functional,neutral,False
+Typical of medical apps,neutral,False
+Neither amazing nor terrible,neutral,False
+Barely acceptable quality,neutral,False
+Gets obvious conditions right,neutral,True
+Could be better or worse,neutral,True
+Okay for non-emergencies,neutral,False
+Sufficient for basic checks,neutral,False
+Mediocre but usable,neutral,False
+Basic diagnostic ability,neutral,False
+Nothing revolutionary,neutral,False
+Average response quality,neutral,False
+Common limitations exist,neutral,False
+Fundamental tools available,neutral,False
+Typical false positives,neutral,False
+Industry-standard performance,neutral,False
+Matches other health apps,neutral,True
+Fine for initial screenings,neutral,False
+Not terrible for quick checks,neutral,False
+Acceptable for basic needs,neutral,False
+Reliable health advice every time,positive,False
+Quick and accurate symptom checks,positive,False
+More dependable than nurse hotlines,positive,True
+9.5/10 accuracy for daily use,positive,False
+Never misses important symptoms,positive,False
+Simple design with great results,positive,False
+Better than my last clinic visit,positive,True
+Essential for personal health tracking,positive,False
+Perfect for common illness detection,positive,False
+Hardly ever has minor errors,positive,True
+Ideal for family health concerns,positive,False
+Right about 94% of the time,positive,False
+Fast help when urgently needed,positive,False
+Improved my health management,positive,False
+Better than medical websites,positive,True
+Senior-friendly and effective,positive,False
+Great for managing chronic issues,positive,False
+Worth the subscription cost,positive,False
+Gives me health peace of mind,positive,False
+Top-rated health app I've used,positive,False
+Frequently provides wrong advice,negative,False
+Can give dangerous suggestions,negative,False
+Total waste of storage space,negative,False
+Occasionally scary inaccuracies,negative,True
+Layout leads to confusion,negative,False
+Slow response in emergencies,negative,False
+Freezes during critical checks,negative,False
+Premium version offers no value,negative,False
+Overlooked serious symptoms,negative,False
+Not worth downloading,negative,False
+Child health guidance is unsafe,negative,True
+Allergy alerts don't function,negative,False
+Diabetes support is inadequate,negative,False
+Suggested incorrect treatments,negative,False
+Increased my health worries,negative,False
+Headache assessment is flawed,negative,False
+Missed foodborne illness,negative,False
+Fatigue analysis unreliable,negative,False
+Skin condition IDs are wrong,negative,False
+Fever readings often incorrect,negative,False
+"Gets basic needs met, nothing extra",neutral,False
+Average for healthcare apps,neutral,False
+Meets minimum requirements,neutral,False
+Standard symptom checker features,neutral,False
+Main functions work adequately,neutral,False
+Nothing special but it works,neutral,False
+Typical of health applications,neutral,False
+Neither impressive nor bad,neutral,False
+Barely meets expectations,neutral,False
+Identifies clear symptoms well,neutral,True
+Could be improved or declined,neutral,True
+Okay for non-urgent questions,neutral,False
+Sufficient for general health checks,neutral,False
+Mediocre but functional,neutral,False
+Basic diagnostic features,neutral,False
+Nothing innovative here,neutral,False
+Average response accuracy,neutral,False
+Common limitations apply,neutral,False
+Essential tools available,neutral,False
+Normal false-positive rate,neutral,False
+Industry-standard quality,neutral,False
+Similar to competitor apps,neutral,True
+Fine for initial assessments,neutral,False
+Not awful for quick checks,neutral,False
+Acceptable for basic use,neutral,False
